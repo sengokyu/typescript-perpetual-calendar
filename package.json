@@ -2,12 +2,17 @@
   "name": "@sengokyu/perpetual-calendar",
   "version": "0.1.0",
   "description": "Generate date array of the months.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prepare": "tsc",
+    "build": "tsc",
     "test": "jest"
   },
   "author": "sengokyu",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sengokyu/typescript-perpetual-calendar.git"
+  },
   "keywords": [
     "calendar",
     "date",
